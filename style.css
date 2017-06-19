@@ -1,76 +1,76 @@
+
+
 body {
-  background-image: -webkit-radial-gradient(center,
-    ellipse farthest-corner, #a7cfdf 0%, #162C6E 100%);
+  background-color: rgb(169, 195, 246); // light blue
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../Home/images/green_mountain.jpg);
+  background-size: 100%;
+  margin:0 auto;
+  text-align:center;
 }
 
-.box {
-  background-color: #bac5db;
+div[data-cell] {
+  width: 100px;
+  height: 100px;
+  background-color: #f2f2f2;
+  float: left;
+  border: 1px solid #808080;
+  font-size: 90px;
+  text-align: center;
   opacity: 0.7;
-  padding-top:  20px;
-  display: flex;
-  justify-content: space-around;
-  width: 850px;
-  height: 300px !important;
-  margin: 0 auto;
-  height: 450px;
+  margin:0 auto;
 }
 
- .office .contact .media {
-      margin-left: 20px;
-      margin-right: 20px;
-      margin-top: 20px;
-      color: #333333;
-      font-size: 14px;
-      line-height: 25.2px;
-      justify-content: center;
-      letter-spacing: 2px;
-  }
+.row {
+  clear: both;
+}
 
-  .media {
-    margin-top: 0;
-  }
+#container {
+  /*height: 400px;
+  width: 400%;
+  margin-left: 35%;
+  margin-top: 10%;
+  margin: 0 auto*/
+  display: inline-block;
+  align-self: center;
 
-  h3 {
-    font-style: bold !important;
-    font-size: 20px;
-  }
 
-  li {
-    list-style-type: none;
-  }
+}
 
-  button {
-    background-color: #4D4D4D; /* Blue Gray*/
-    border: none;
-    font-size: 18px;
-    text-decoration: none;
-    color: white;
-    margin: 0;
-    width: 100px;
-    padding: 2px 9px;
-    text-decoration: none;
-    display: inline-block;
-  }
+#announce-winner {
+  clear: both;
+  font-size: 50px;
+}
 
-  @media screen and (max-width: 768px)
-        and (max-width: 991px)
-        and (max-width: 767px) {
+#clear {
+  display: inline-block;
+  text-align: center;
+  box-shadow: inset 0 0 0 1px
+  #27496d,inset 0 5px 30px #193047;
+  width: 100px;
+  height: 40px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  margin:0 auto;
+  text-align:center;
+}
 
-        body {
-          background: #00c3ff;  /* fallback for old browsers */
-          background: -webkit-linear-gradient(to right, #ffff1c, #00c3ff);
-        }
+h1 {
+  padding-top: 5%;
+  text-shadow: 2px 2px #ff0000;
+  font-size: 80px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin-top: 0;
+}
 
-        .box {
-          width: 300px;
-          display: flex;
-          flex-wrap: wrap;
-          column-count: 1;
-          column-rule: none;
-          min-width: 33.33%;
-          text-align: center;
-          color: rgb(6, 27, 33);
-          background-color: #00c3ff;
-        }
-
-  }
+@media screen and (max-width: 768px)
+     {
+       body {
+          background: #642B73;  /* fallback for old browsers */
+          background: -webkit-linear-gradient(to right, #C6426E, #642B73);
+          background: linear-gradient(to right, #C6426E, #642B73);
+}}
