@@ -29,12 +29,11 @@ p {
   text-shadow: 1px 1px 1px rgb(17, 22, 55);
 }
 
-
 @media screen and (max-width: 768px)
      {
        body {
-background-color: #CFC1B4:inherit;
- display: none;
+      background-color: #CFC1B4:inherit;
+      display: none;
 }
 
 }
