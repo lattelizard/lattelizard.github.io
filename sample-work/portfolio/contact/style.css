@@ -1,0 +1,76 @@
+body {
+  background-image: -webkit-radial-gradient(center,
+    ellipse farthest-corner, #a7cfdf 0%, #162C6E 100%);
+}
+
+.box {
+  background-color: #bac5db;
+  opacity: 0.7;
+  padding-top:  20px;
+  display: flex;
+  justify-content: space-around;
+  width: 850px;
+  height: 300px !important;
+  margin: 0 auto;
+  height: 450px;
+}
+
+ .office .contact .media {
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-top: 20px;
+      color: #333333;
+      font-size: 14px;
+      line-height: 25.2px;
+      justify-content: center;
+      letter-spacing: 2px;
+  }
+
+  .media {
+    margin-top: 0;
+  }
+
+  h3 {
+    font-style: bold !important;
+    font-size: 20px;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  button {
+    background-color: #4D4D4D; /* Blue Gray*/
+    border: none;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    width: 100px;
+    padding: 2px 9px;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  @media screen and (max-width: 768px)
+        and (max-width: 991px)
+        and (max-width: 767px) {
+
+        body {
+          background: #00c3ff;  /* fallback for old browsers */
+          background: -webkit-linear-gradient(to right, #ffff1c, #00c3ff);
+        }
+
+        .box {
+          width: 300px;
+          display: flex;
+          flex-wrap: wrap;
+          column-count: 1;
+          column-rule: none;
+          min-width: 33.33%;
+          text-align: center;
+          color: rgb(6, 27, 33);
+          background-color: #00c3ff;
+        }
+
+  }
