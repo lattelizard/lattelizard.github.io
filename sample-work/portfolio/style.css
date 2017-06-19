@@ -1,0 +1,22 @@
+body {
+  background-image: -webkit-radial-gradient(center,
+    ellipse farthest-corner, #a7cfdf 0%, #162C6E 100%);
+}
+
+.box {
+  background-color: #bac5db;
+  display: flex;
+  justify-content: space-around;
+  width: 850px;
+  height: 300px;
+  margin: 0 auto;
+  
+}
+
+ . office .contact .media {
+      margin-left: 20px;
+      margin-right: 20px;
+      color: #333333;
+      font-size: 14px;
+      line-height: 25.2px;
+  }
